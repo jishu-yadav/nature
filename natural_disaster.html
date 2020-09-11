@@ -1,0 +1,261 @@
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+html,body {
+  height: 100%;
+}
+h1{
+  text-align:center;
+  font-size: 150px;
+  text-shadow: 12px 12px black;
+}
+h2{
+  text-align:center;
+  font-size: 70px;
+  text-shadow: 2px 5px pink;
+}
+h3{
+  text-align:center;
+  font-size: 28px;
+  text-shadow: 2px 3px 5px red;
+  background-color: white;
+  border-radius: 6px;
+}
+img {
+  border: 15px solid white;
+  border-radius: 16px;
+}
+.wrapper {
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+.fixed-bg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; 
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: table;
+}
+
+.fixed-bg h1 {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.scroll-bg {
+  background-color: #0f0f0a;
+  padding: 10px 90px;/*space beside small pics*/
+  color: #676767;
+}
+.bg-1 {
+  background-image: url('https://www.dl.dropboxusercontent.com/s/jcord1lxh30e02z/bg2.jpg');
+}
+
+.bg-3{
+  background-image: url('https://d279m997dpfwgl.cloudfront.net/wp/2017/08/HarveyHouse.jpg');
+}
+a{
+  color: white;
+  background-color: blue;
+  border-radius: 3px;
+}
+a:hover {
+   color: black;
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body{
+  background: #90CAF9;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Raleway;
+}
+div{
+  display: inherit;
+}
+.card-1{
+  position: relative;
+  height: 280px;
+  width: 230px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 0 4px 3px rgba(0,0,0,0.12), 0 1px     2px rgba(0,0,0,0.24);/*no need btw*/
+}
+.card-1__bg{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 70%;
+  width: 100%;
+  overflow: hidden;
+}
+.card-1__bg:after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.2);
+}
+.card-1__bg>img{
+  width: 100%;
+  height: 100%;
+}
+
+.card-1__title{
+  background-color: black;
+  font-size: 1.2em;
+  position: absolute;
+  z-index: 1;
+  top: 13px;
+  left: 14px;
+  padding: 1px;
+  color: cyan;
+}
+
+.card-1__detail{
+  font-weight: bold;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 25%;
+  padding: 0px 10px;
+  color: black;
+  background: khaki;
+  border-radius: 5px;
+}
+
+        </style>
+    </head>
+<body>
+    
+  <div class="wrapper">  
+    
+    <div class="fixed-bg bg-1">
+     <h1> Natural Disasters !!</h1>
+     <h2>The Dire.... The Fiery Calamaties...</h2>
+    </div>  
+    <div class="scroll-bg">
+      <h3>Some Major Natural Disasters .....</h3>
+        <!--Card 1-->
+   <div class="card-1">
+      <div class="card-1__bg">
+        <img src="https://image.shutterstock.com/image-illustration/flooding-houses-rising-water-3d-260nw-709918504.jpg" alt="">
+        <div class="card-1__title">Floods</div>
+      </div>
+      <div class="card-1__detail">
+       A flood is an overflow of water ..<a href="https://en.wikipedia.org/wiki/Flood">READ MORE</a>
+      </div>
+   </div>
+  <!--Card 2-->
+   <div class="card-1">
+      <div class="card-1__bg">
+        <img src="https://cdn.business2community.com/wp-content/uploads/2015/08/Slide1.jpg.jpg" alt="">
+        <div class="card-1__title">Tsunami</div>
+      </div>
+      <div class="card-1__detail">
+       A tsunami is a series of waves .. <a href="https://en.wikipedia.org/wiki/Tsunami">READ MORE</a>
+      </div>
+   </div>
+   <!--Card 3-->
+   <div class="card-1">
+      <div class="card-1__bg">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLEAKbtacT6HbHgixpgKRphT3KadMZ1Cv7ZQ&usqp=CAU" alt="">
+        <div class="card-1__title">Earthquake</div>
+      </div>
+      <div class="card-1__detail">
+       An earthquake (also known as ..<a href="https://en.wikipedia.org/wiki/Earthquake">READ MORE</a>
+      </div>
+   </div>
+  <!--Card 4-->
+   <div class="card-1">
+      <div class="card-1__bg">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTw95da2Xn6ZrymSi7NajGJLFj6_w34ZRIfyw&usqp=CAU" alt="">
+        <div class="card-1__title">Volcanic Eruptions</div>
+      </div>
+      <div class="card-1__detail">A volcano is a rupture in ...
+        <a href="https://en.wikipedia.org/wiki/Volcano">READ MORE</a>
+      </div>
+   </div>
+  <!--Card 5-->
+   <div class="card-1">
+      <div class="card-1__bg">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTb6MIuXKdN_3imU2aGhy7wKVwpYUFa31GjbA&usqp=CAU" alt="">
+        <div class="card-1__title">Hurricanes</div>
+      </div>
+      <div class="card-1__detail">
+       Hurricanes are large, swirling sto..
+        <a href="https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-are-hurricanes-k4.html">READ MORE</a>
+      </div>
+   </div>
+  
+     <!--Card 6-->
+   <div class="card-1">
+      <div class="card-1__bg">
+        <img src="https://ca-times.brightspotcdn.com/dims4/default/1b5f550/2147483647/strip/true/crop/1566x1044+17+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F10%2F29%2F6ce75bda454ba6ccaa59c69df42e%2Fap20229595825479.jpg" alt="">
+        <div class="card-1__title">Lightening</div>
+      </div>
+      <div class="card-1__detail">
+        Lightning is a naturally occurring..<a href="https://en.wikipedia.org/wiki/Lightning">READ MORE</a>
+      </div>
+   </div>
+  <!--Card 7-->
+   <div class="card-1">
+      <div class="card-1__bg">
+        <img src="https://www.ready.gov/sites/default/files/2019-09/Wildfire%20toolkit_1.jpg" alt="">
+        <div class="card-1__title">Wild Fires</div>
+      </div>
+      <div class="card-1__detail">
+        A wildfire, wildland fire or rura..<a href="https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-are-hurricanes-k4.html">READ MORE</a>
+      </div>
+   </div>
+   <!--Card 8-->
+   <div class="card-1">
+      <div class="card-1__bg">
+        <img src="https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F180111142916-randall-road-mudslide-before-and-after-split.jpg" alt="">
+        <div class="card-1__title">Mud Slides</div>
+      </div>
+      <div class="card-1__detail">
+        A statutory definition of "flo..<a href="https://en.wikipedia.org/wiki/Mudflow">READ MORE</a>
+      </div>
+   </div>
+  <!--Card 9-->
+   <div class="card-1">
+      <div class="card-1__bg">
+        <img src="https://i.insider.com/5dc9b18579d75717d776a16a?width=1100&format=jpeg&auto=webp" alt="">
+        <div class="card-1__title">Tornado</div>
+      </div>
+      <div class="card-1__detail">
+        A tornado is a rapidly rotating..
+        <a href ="https://en.wikipedia.org/wiki/Tornado">READ MORE</a>
+      </div>
+   </div>
+  <!--Card 10-->
+   <div class="card-1">
+      <div class="card-1__bg">
+        <img src="https://image.shutterstock.com/image-photo/fields-dry-land-broken-evening-260nw-1208232157.jpg" alt="">
+        <div class="card-1__title">Drought</div>
+      </div>
+      <div class="card-1__detail">
+       A drought (or drouth, in some regions..<a href="https://en.wikipedia.org/wiki/Drought">READ MORE</a>
+      </div>
+   </div>
+      <div class="fixed-bg bg-3">
+      <h2> ......one of the dire reasons towards the end of the world!!</h2>
+    </div>  
+  </body>
+  </html>
